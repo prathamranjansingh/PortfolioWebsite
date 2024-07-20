@@ -24,14 +24,17 @@ const HeroSection = () => {
               <div className="about_text">
                 <p>Hello!</p>
                 <p>
-                  Over the years of designing, I have honed my skills as a
-                  well-rounded designer, confidently navigating every aspect of
-                  the digital product creation process, from start to finish.
+                  I am a student with a keen enthusiasm for coding and web
+                  development. Whiling away time, while trying to apply coding
+                  language is preferably the best part of my day. But when I'm
+                  not preoccupied with work you can catch me out in the field
+                  honoring my skills in football or achieving victories in video
+                  games.
                 </p>
                 <p>
-                  Over the years of designing, I have honed my skills as a
-                  well-rounded designer, confidently navigating every aspect of
-                  the digital product creation process, from start to finish.
+                  I embrace challenges that lay ahead of me, whether it involves
+                  debugging codes or solving puzzles, my aim always remains to
+                  strive and improve my skills.
                 </p>
               </div>
               <div className="about_img">
