@@ -32,7 +32,6 @@ To get started with the portfolio website locally, follow these steps:
 
    ```bash
    cd portfolio-website
-   Install Dependencies
    ```
 
 3. **Installing the dependencies**
