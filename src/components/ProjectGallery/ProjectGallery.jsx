@@ -13,7 +13,11 @@ const ProjectGallery = () => {
               <h3>01</h3>
             </div>
             <div className="arrowLink">
-              <a className="arrowWrap" href="">
+              <a
+                className="arrowWrap"
+                href="https://quiz-appfrontend.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer">
                 <img src={arrow} alt="" />
               </a>
             </div>
@@ -42,7 +46,11 @@ const ProjectGallery = () => {
               <h3>02</h3>
             </div>
             <div className="arrowLink">
-              <a className="arrowWrap" href="">
+              <a
+                className="arrowWrap"
+                href="https://groceryapp-frontend.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer">
                 <img src={arrow} alt="" />
               </a>
             </div>

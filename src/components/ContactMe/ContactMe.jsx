@@ -15,11 +15,17 @@ const ContactMe = () => {
           <div className="contact_me_email">
             <h3>
               Connect with me for job opportunities at
-              <a href="mailto:prathamranjan3@gmail.com">
+              <a
+                href="mailto:prathamranjan3@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer">
                 prathamranjan3@gmail.com
               </a>
               or on
-              <a href="https://www.linkedin.com/in/pratham-ranjan-singh-1068611b8/">
+              <a
+                href="https://www.linkedin.com/in/pratham-ranjan-singh-1068611b8/"
+                target="_blank"
+                rel="noopener noreferrer">
                 LinkedIn
               </a>
             </h3>
