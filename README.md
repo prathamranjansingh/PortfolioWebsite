@@ -55,9 +55,8 @@ This starts the development server. You can view the website at http://localhost
 
 - **Build for Production**
 
-````bash
+```bash
 npm run build
 ```
 
 This creates a production build of your website in the dist directory.
-````
