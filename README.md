@@ -6,9 +6,6 @@ Welcome to the portfolio website project! This website showcases my work, projec
 
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
-- [Available Scripts](#available-scripts)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 
