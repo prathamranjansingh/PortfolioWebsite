@@ -1,6 +1,8 @@
 import React from "react";
 import "./ProjectGallery.css";
 import arrow from "../../assets/arrow.svg";
+import { porject1img } from "../../assets/project1.png";
+import { porject2img } from "../../assets/project2.jpg";
 const ProjectGallery = () => {
   return (
     <div className="projects_gallery">
@@ -31,7 +33,7 @@ const ProjectGallery = () => {
             </p>
           </div>
           <div className="project_ss">
-            <img src="src\assets\project1.png" alt="" />
+            <img src={porject1img} alt="" />
           </div>
         </div>
         <div className="project1 no2">
@@ -61,7 +63,7 @@ const ProjectGallery = () => {
             </p>
           </div>
           <div className="project_ss">
-            <img src="src\assets\project2.jpg" alt="" />
+            <img src={porject2img} alt="" />
           </div>
         </div>
       </div>

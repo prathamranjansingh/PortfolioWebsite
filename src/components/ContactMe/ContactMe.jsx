@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactMe.css";
+import { contactGif } from "../../assets/contact_me.gif";
 const ContactMe = () => {
   return (
     <div id="CONTACT" className="contact_me">
@@ -9,7 +10,7 @@ const ContactMe = () => {
         </div>
         <div className="contact_me_details">
           <div className="contact_me_gif">
-            <img src="src\assets\contact_me.gif" alt="" />
+            <img src={contactGif} alt="" />
           </div>
           <div className="contact_me_email">
             <h3>
