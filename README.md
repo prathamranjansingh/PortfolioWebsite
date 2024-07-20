@@ -27,3 +27,43 @@ To get started with the portfolio website locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/portfolio-website.git
    ```
+
+1. **Navigate to the Project Directory**
+
+```bash
+cd portfolio-website
+Install Dependencies
+```
+
+```bash
+npm install
+```
+
+## Usage
+
+To run and build the project, use the following commands:
+
+- **Run the Development Server**
+
+```bash
+npm run dev
+```
+
+This starts the development server. You can view the website at http://localhost:3000.
+
+Build for Production
+
+bash
+npm run build
+This creates a production build of your website in the dist directory.
+
+Preview the Production Build
+
+bash
+Copy code
+npm run preview
+This allows you to preview the production build locally.
+
+```
+
+```
