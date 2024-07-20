@@ -273,6 +273,22 @@
 }
 
 @media (max-width: 809px) {
+  .hero {
+    padding: 104px 8px 80px;
+  }
+
+  .hero_wrap {
+    flex-direction: column;
+    gap: 24px;
+    max-width: 100%;
+  }
+  .name_container {
+    border-radius: 32px;
+    gap: 16px;
+    padding: 16px 48px 16px 40px;
+    width: 100%;
+  }
+
   .svg_container {
     width: 64px; /* Adjust size as needed */
   }
