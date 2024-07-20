@@ -52,11 +52,3 @@ npm run dev
 ```
 
 This starts the development server. You can view the website at http://localhost:3000.
-
-- **Build for Production**
-
-```bash
-npm run build
-```
-
-This creates a production build of your website in the dist directory.
