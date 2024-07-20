@@ -6,7 +6,7 @@ const ContactMe = () => {
     <div id="CONTACT" className="contact_me">
       <div className="contact_me_wrap">
         <div className="contact_me_text">
-          <h3>👋 LET'S GET IN TOUCH!</h3>
+          <h3>LET'S GET IN TOUCH!👋</h3>
         </div>
         <div className="contact_me_details">
           <div className="contact_me_gif">
