@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactMe.css";
-import { contactGif } from "../../assets/contact_me.gif";
+import contactGif from "../../assets/contact_me.gif";
 const ContactMe = () => {
   return (
     <div id="CONTACT" className="contact_me">

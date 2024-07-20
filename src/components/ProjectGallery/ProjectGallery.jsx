@@ -1,8 +1,8 @@
 import React from "react";
 import "./ProjectGallery.css";
 import arrow from "../../assets/arrow.svg";
-import { porject1img } from "../../assets/project1.png";
-import { porject2img } from "../../assets/project2.jpg";
+import porject1img from "../../assets/project1.png";
+import porject2img from "../../assets/project2.jpg";
 const ProjectGallery = () => {
   return (
     <div className="projects_gallery">
