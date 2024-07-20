@@ -1,0 +1,140 @@
+/* PROJECT GALLERY */
+
+.project_gallery {
+  place-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row;
+  gap: 8px;
+  height: min-content;
+  overflow: visible;
+  padding: 0px;
+  position: relative;
+  width: 600px;
+}
+
+.project_gallery_wrap {
+  padding: 48px 64px 120px;
+  place-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  justify-content: space-between;
+}
+.project1 {
+  background-color: #fecdff;
+  border-radius: 56px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 8px 16px -12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: wrap;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 40px 48px;
+  width: 45%;
+}
+
+.project1_sno {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.project1_sno h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 72px;
+  margin-bottom: 40px; /* Assuming you want to apply paragraph spacing to margins */
+  text-align: left;
+  color: #000000; /* Replace with your token value if needed */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.arrowLink {
+  background-color: #ffffff;
+  height: 70px;
+  width: 85px;
+  display: flex;
+  align-items: center;
+  border-radius: 56px;
+  justify-content: center;
+}
+
+.project_name {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.project2 {
+  background-color: var(--token-d92e8660-0547-4a0c-af38-322f2f349e6e, #cdedff);
+  border-radius: 56px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 8px 16px -12px;
+  display: flex;
+  flex-flow: wrap;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 40px 48px;
+  width: 40%;
+  gap: 20px;
+}
+
+.project1.no2 {
+  background-color: #dac8ff;
+}
+
+.project_ss {
+  margin-top: 2rem;
+}
+
+.project_ss img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 45px;
+  object-position: center center;
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+@media (min-width: 960px) and (max-width: 1239px) {
+  .about_project p {
+    display: none;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 959px) {
+  .project_gallery_wrap {
+    flex-direction: column;
+  }
+  .project1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 809px) {
+  .project1 {
+    border-radius: 40px;
+    padding: 32px 24px 40px;
+    width: 100%;
+  }
+  .project_gallery_wrap {
+    flex-direction: column;
+    gap: 48px;
+    max-width: 100%;
+    padding: 48px 8px 120px;
+  }
+  .project_ss {
+    height: auto;
+    width: 100%;
+  }
+}

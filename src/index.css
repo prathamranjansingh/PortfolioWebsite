@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  background-image: linear-gradient(to right, #333333 1px, transparent 1px),
+    linear-gradient(to bottom, #333333 1px, transparent 1px);
+  background-size: 6rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
